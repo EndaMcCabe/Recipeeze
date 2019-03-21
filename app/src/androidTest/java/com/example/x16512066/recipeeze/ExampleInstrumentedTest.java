@@ -1,4 +1,4 @@
-package com.example.fujitsu.recipeze;
+package com.example.x16512066.recipeeze;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.fujitsu.recipeze", appContext.getPackageName());
+        assertEquals("com.example.x16512066.recipeeze", appContext.getPackageName());
     }
 }
