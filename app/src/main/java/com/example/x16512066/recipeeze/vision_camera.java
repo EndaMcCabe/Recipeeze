@@ -12,6 +12,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.support.v7.app.AppCompatActivity;
+
 
 import java.io.File;
 import java.io.IOException;
@@ -22,15 +24,16 @@ import static android.app.Activity.RESULT_OK;
 import static android.os.Environment.getExternalStoragePublicDirectory;
 import static android.provider.MediaStore.ACTION_IMAGE_CAPTURE;
 
-public class vision_camera extends AppCompatActivty{
+public class vision_camera extends AppCompatActivity{
 
     private Object Bitmap;
+    ImageView imageView;
+    String pathToFile = null;
 
     protected void onCreate(Bundle savedInstanceState) {
 
         Button btnTakePic;
-        ImageView imageView;
-        String pathToFile;
+
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vision_camera);
@@ -46,15 +49,19 @@ public class vision_camera extends AppCompatActivty{
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
-        String pathToFile = null;
         super.onActivityResult(requestCode, resultCode, data);
         if(resultCode == RESULT_OK){
             if(requestCode == 1){
-                android.graphics.Bitmap bitmap = BitmapFactory.decodeFile(pathToFile);
-                ImageView.setImageBitmap(Bitmap);
+                imageBitmap();
             }
         }
     }
+
+    void imageBitmap(){
+        android.graphics.Bitmap bitmap = BitmapFactory.decodeFile(pathToFile);
+        imageView.setImageBitmap((android.graphics.Bitmap) Bitmap);
+    }
+
 
 
     private void dispatchPictΩureTakenAction() {
@@ -66,7 +73,7 @@ public class vision_camera extends AppCompatActivty{
 
             if(null != photoFile){
                 pathToFile = photoFile.getAbsolutePath();
-                Uri photoUri = FileProvider.getUriForFile(MainActivity.this, "fssdfs", photoFile);
+                Uri photoUri = FileProvider.getUriForFile(vision_camera.this, "fssdfs", photoFile);
                 takePic.putExtra(MediaStore.EXTRA_OUTPUT, photoUri);
 
             }
