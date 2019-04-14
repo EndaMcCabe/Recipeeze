@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Sharing"
+        android:title="Sharing"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Discoveries"
+        android:title="Discoveries"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/CalorieCounter"
+        android:title="Calorie Counter"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/PhotoAnalyser"
+        android:title="Photo Analyser"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Forum"
+        android:title="Forum"
+        app:showAsAction="never"/>
+
+
+
+
+</menu>
