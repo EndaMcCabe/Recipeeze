@@ -1,4 +1,4 @@
-package com.example.x16512066.recipeeze;
+package com.example.fujitsu.recipeeze;
 
 import android.content.Intent;
 import android.net.Uri;

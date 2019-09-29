@@ -1,4 +1,4 @@
-package com.example.x16512066.recipeeze;
+package com.example.fujitsu.recipeeze;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

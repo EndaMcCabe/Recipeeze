@@ -1,7 +1,6 @@
-package com.example.x16512066.recipeeze;
+package com.example.fujitsu.recipeeze;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
@@ -20,7 +19,6 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static android.app.Activity.RESULT_OK;
 import static android.os.Environment.getExternalStoragePublicDirectory;
 import static android.provider.MediaStore.ACTION_IMAGE_CAPTURE;
 

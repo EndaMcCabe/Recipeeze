@@ -1,4 +1,4 @@
-package com.example.x16512066.recipeeze;
+package com.example.fujitsu.recipeeze;
 
 import org.junit.Test;
 

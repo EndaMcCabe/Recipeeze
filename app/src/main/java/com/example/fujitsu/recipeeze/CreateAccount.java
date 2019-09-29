@@ -1,4 +1,4 @@
-package com.example.x16512066.recipeeze;
+package com.example.fujitsu.recipeeze;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
