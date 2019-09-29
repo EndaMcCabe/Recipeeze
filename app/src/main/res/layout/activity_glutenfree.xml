@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Glutenfree">
+
+
+    <TextView
+        android:layout_width="98dp"
+        android:layout_height="28dp"
+        android:text=" Gluten Free Recipes"
+        android:visibility="visible"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="146dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/harissa_chicken" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="146dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/yorkshire_pudding" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="146dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/quinoa_tabbouleh" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="146dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/carrot_cake" />
+</RelativeLayout>

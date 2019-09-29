@@ -18,9 +18,39 @@
         <activity android:name="com.example.fujitsu.recipeeze.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+            <!--<action android:name="android.intent.action.CUSTOM" /> -->
         </activity>
+
+
+        <activity android:name="com.example.x16512066.recipeeze.Splash"></activity>
+
+        <activity
+            android:name="com.example.x16512066.recipeeze.Sharing"
+            android:label="Sharing"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name="com.example.x16512066.recipeeze.PhotoAnalyser"
+            android:label="Photo Analyser"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name="com.example.x16512066.recipeeze.Discoveries"
+            android:label="Discoveries"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name="com.example.x16512066.recipeeze.Forum"
+            android:label="Forum"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name="com.example.x16512066.recipeeze.CalorieCounter"
+            android:label="Calorie Counter"
+            android:parentActivityName="com.example.x16512066.recipeeze.Home" />
+        <activity android:name=".Home" />
+        <activity android:name=".CreateAccount" />
+
+
+
+
     </application>
 </manifest>

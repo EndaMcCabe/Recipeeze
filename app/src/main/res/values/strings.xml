@@ -1,4 +1,24 @@
 <resources>
     <string name="app_name">Recipeeze</string>
     <string name="default_web_client_id">null</string>
+    <string name="chinese">Chinese</string>
+    <string name="italian">Italian</string>
+    <string name="vegan">Vegan</string>
+    <string name="gluten_free">Gluten Free</string>
+    <string name="szechuan_stir_fry">Szechuan Stir Fry</string>
+    <string name="chow_mein">Chow Mein</string>
+    <string name="kung_pao_chicken">Kung Pao Chicken</string>
+    <string name="hoisin_pork_ribs">Hoisin Pork Ribs</string>
+    <string name="harissa_chicken">Harissa Chicken</string>
+    <string name="yorkshire_pudding">Yorkshire Pudding</string>
+    <string name="quinoa_tabbouleh">Quinoa Tabbouleh</string>
+    <string name="carrot_cake">Carrot Cake</string>
+    <string name="grilled_cheese">Grilled Cheese</string>
+    <string name="homemade_marinara">Homemade Marinara</string>
+    <string name="roasted_mushroom">Roasted Mushroom</string>
+    <string name="spaghetti_carbonara">Spaghetti Carbonara</string>
+    <string name="roasted_broccoli">Roasted Broccoli</string>
+    <string name="sesame_soy_noodles">Sesame Soy Noodles</string>
+    <string name="mashed_cauliflower">Mashed Cauliflower</string>
+    <string name="roasted_brussels">Roasted Brussels</string>
 </resources>
